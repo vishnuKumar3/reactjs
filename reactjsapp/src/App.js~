@@ -1,0 +1,23 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+class Car extends React.Component{
+	click(){
+		alert("hii");
+		}
+
+
+	render(){		
+  return (
+    <div>
+      
+	<button onclick={this.click}>click1</button>
+	
+       
+    </div>	
+
+  );}
+}
+
+ReactDom.render(<Car />,document.getElementById('root'));

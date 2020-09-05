@@ -1,0 +1,29 @@
+import React from 'react';
+
+
+
+
+
+class Car2 extends React.Component{
+	click(){
+		alert("hello");
+		}
+
+	
+
+
+	render(){		
+  return (
+    <div>
+      
+	<button onClick={this.click}>click index3 </button>
+	<p>hii hello index4</p>
+		
+	
+       
+    </div>	
+
+  );}
+}
+
+export default Car2;

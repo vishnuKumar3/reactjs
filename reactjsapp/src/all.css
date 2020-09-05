@@ -1,0 +1,32 @@
+body{background:radial-gradient(white,yellow);height:2000px;width:1000px;}
+	
+#class{text-transform:uppercase;color:yellow;font-family:sans-serif;padding-top:80px;text-shadow:1px 1px 2px black,2px 2px 3px blue,3px 3px 5px yellow;font-size:22px;margin-left:200px;}
+
+.boxmath{border:1px solid black;border-radius:10px;width:750px;margin-left:0px;height:50px;font-size:20px;background-color:rgba(255,0,0,0.8);}
+
+.boxps{border:1px solid black;border-radius:10px;width:750px;margin-left:0px;height:50px;font-size:20px;background-color:lime;}
+
+.boxbs{border:1px solid black;border-radius:10px;width:750px;margin-left:0px;height:50px;font-size:20px;background-color:rgba(0,0,255,0.8);}
+
+#mathp{margin-top:0px;position:absolute;color:white;}
+
+#mathp1{margin-left:-100px;}
+
+#mathhref{font-size:20px;margin-left:50px;margin-top:0px;font-size:15px;text-transform:uppercase;font-family:sans-serif;color:white;font-style:italic;}
+
+#pshref{font-size:20px;margin-left:200px;margin-top:0px;font-size:15px;text-transform:uppercase;font-family:sans-serif;color:white;font-style:italic;}
+
+#bshref{font-size:20px;margin-left:200px;margin-top:0px;font-size:15px;text-transform:uppercase;font-family:sans-serif;color:white;font-style:italic;}
+
+
+#maths{border:1px solid transparent;width:750px;margin:200px 0px 0px 250px;display:none;border-radius:10px;position:absolute;}
+#physics{border:1px solid transparent;width:750px;margin:280px 0px 0px 250px;display:none;border-radius:10px;position:absolute;}
+#biology{border:1px solid transparent;width:750px;margin:360px 0px 0px 250px;display:none;border-radius:10px;position:absolute;}
+
+#math:active,#ps:active,#bs:active{transform:translateY(5px);box-shadow:0px 0px 0px black;}
+
+#math{box-shadow:0px 5px 0px black;cursor:pointer;border:1px solid black;width:200px;height:50px;margin:80px 0px 0px 250px;border-radius:10px;text-align:center;text-transform:uppercase;font-family:sans-serif;padding:10px;background:radial-gradient(white 30%,red);font-size:15px;position:absolute;}
+
+#ps{box-shadow:0px 5px 0px black;cursor:pointer;border:1px solid black;width:200px;height:50px;margin:160px 0px 0px 250px;border-radius:10px;text-align:center;text-transform:uppercase;font-family:sans-serif;padding:10px;background:radial-gradient(white 30%,lime);font-size:15px;position:absolute;}
+
+#bs{box-shadow:0px 5px 0px black;cursor:pointer;border:1px solid black;width:200px;height:50px;margin:240px 0px 0px 250px;border-radius:10px;text-align:center;text-transform:uppercase;font-family:sans-serif;padding:10px;background:radial-gradient(white 30%,blue);font-size:15px;position:absolute;}

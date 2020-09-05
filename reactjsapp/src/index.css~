@@ -1,0 +1,33 @@
+
+
+body{background:radial-gradient(rgb(245,245,245) 20%,yellow);width:800px;background-repeat:no-repeat;background-position:center;background-attachment:fixed;}
+
+
+ul{margin-left:10%;}
+
+li{list-style:none;}
+#link{text-decoration:none;}
+button{font-family:sans-serif;font-size:20px;font-variant:small-caps;list-style:none;float:left;margin-left:5%;border:1px solid transparent;cursor:pointer;
+padding:0px 5px 0px 5px;border-radius:10px;background:yellow;box-shadow:3px 3px 0px black;}
+
+button:active{transform:translateY(5px);box-shadow:0px 0px 0px black;}
+
+
+
+
+@media only screen and (max-width:1000px){
+
+button{margin-left:2%;}
+
+ul{margin-left:-5%;}
+
+}
+
+
+
+
+
+@media only screen and (max-width:650px){
+
+ul{margin-left:-10%;}}
+

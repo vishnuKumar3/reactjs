@@ -1,0 +1,160 @@
+#one{border:1px solid transparent;height:30px;position:absolute;animation-name:edu;animation-duration:2s;animation-timing-function:ease-in;font-family:sans-serif;font-variant:small-caps;font-size:20px;color:red;margin:245px 0px 0px 44%;transform:rotate(-60deg)}
+
+#two{border:1px solid transparent;height:30px;position:absolute;animation-timing-function:ease-in;animation-name:inn;animation-duration:2s;font-family:sans-serif;font-variant:small-caps;font-size:20px;color:blue;margin:250px 0px 0px 49%;transform:rotate(55deg)}
+
+#three{border:1px solid transparent;height:30px;position:absolute;animation-delay:2s;animation-name:core;animation-timing-function:ease-in;animation-duration:2s;font-family:sans-serif;font-variant:small-caps;font-size:20px;color:green;margin:300px 0px 0px 48.5%;}
+
+
+#circle{border: 1px solid black;width:11.25%;height:150px;border-radius:100%;margin:200px 0px 0px 44.5%;position:absolute;animation-name:circle;animation-duration:4s;animation-timing-function:linear;animation-iteration-count:1;}
+
+
+@keyframes edu{from{margin:-100px 0px 0px 67.50%;transform:rotate(-30deg)} to{margin:245px 0px 0px 44%;transform:rotate(-60deg)}}
+
+@keyframes inn{from{margin:-100px 0px 0px 15%;transform:rotate(30deg)} to{margin:250px 0px 0px 49%;transform:rotate(55deg)}}
+
+@keyframes core{from{margin:700px 0px 0px 45%;opacity:0;} to{margin:300px 0px 0px 48.5%;opacity:1;}}  
+
+@keyframes eic{from{transform:scale(0)} to{transform:scale(1)}}
+
+@keyframes circle{0%{transform:rotateY(0deg)} 25%{transform:rotateY(360deg)} 50%{transform:rotateY(0deg)} 75%{transform:rotateY(360deg)} 100%{transform:rotateY(0deg)}}
+
+body{height:1500px;background:radial-gradient(rgb(245,245,245) 20%,yellow);background-repeat:no-repeat;background-position:center;background-attachment:fixed;}
+
+
+
+
+#pid{position:absolute;margin:265px 0px 0px 48.5%;font-size:20px;animation-name:eic;animation-duration:2s;animation-timing-function:linear;}
+
+#eid{color:red;}
+
+#iid{color:blue;}
+
+#cid{color:green;}
+
+#core{font-family:sans-serif;font-size:25px;font-variant:small-caps;margin:430px 0px 0px 40%;position:absolute;}
+
+#desc{font-size:20px;font-family:sans-serif;color:black;text-shadow:0px 0px 0px white;margin-left:3%;width:40%;font-variant:small-caps;}
+
+ul{margin-left:10%;}
+
+li{list-style:none;}
+#link{text-decoration:none;}
+button{font-family:sans-serif;font-size:20px;font-variant:small-caps;list-style:none;float:left;margin-left:5%;border:1px solid transparent;cursor:pointer;
+padding:0px 5px 0px 5px;border-radius:10px;background:yellow;box-shadow:3px 3px 0px black;}
+
+button:active{transform:translateY(5px);box-shadow:0px 0px 0px black;}
+
+.bottom{position:absolute;margin-top:600px;}
+
+#iframe{position:absolute;margin:-6.5% 0px 0px 53%;width:43%;height:200%;}
+
+#videoconceptanimation{position:absolute;margin:28% 0px 0px 0%;width:50%;height:200%;}
+
+#videoconcept{width:50%;height:200%;position:absolute;margin:28% 0px 0px 50%;}
+
+#scroll{position:absolute;}
+
+#video{position:absolute;font-size:20px;font-family:sans-serif;color:black;text-shadow:0px 0px 0px white;font-variant:small-caps;margin:24% 0px 0px 53%;}
+
+#Animation{position:absolute;font-size:20px;font-family:sans-serif;color:black;text-shadow:0px 0px 0px white;font-variant:small-caps;margin:24% 0px 0px 3%;}
+
+#Documentation{position:absolute;font-size:20px;font-family:sans-serif;color:black;text-shadow:0px 0px 0px white;font-variant:small-caps;margin:-10.5% 0px 0px 53%;}
+
+
+
+
+
+@media only screen and (max-width:1000px){
+
+
+body{height:2500px;background:radial-gradient(rgb(245,245,245) 20%,yellow);background-repeat:no-repeat;background-position:center;background-attachment:fixed;}
+
+#circle{width:22.25%;border-radius:100%;margin:200px 0px 0px 34.5%;}
+
+
+#one{margin:245px 0px 0px 34%;}
+
+#two{margin:250px 0px 0px 43%;}
+
+#three{margin:300px 0px 0px 42%;}
+
+@keyframes edu{from{margin:-100px 0px 0px 67.50%;transform:rotate(-30deg)} to{margin:245px 0px 0px 34%;transform:rotate(-60deg)}}
+
+
+@keyframes inn{from{margin:-100px 0px 0px 15%;transform:rotate(30deg)} to{margin:250px 0px 0px 43%;transform:rotate(55deg)}}
+
+@keyframes core{from{margin:600px 0px 0px 42%;} to{margin:300px 0px 0px 42%;}}  
+
+#core{margin:430px 0px 0px 29%;}
+
+
+#pid{margin:265px 0px 0px 42%;}
+
+#desc{width:94%;}
+
+#Documentation{margin:15% 0px 0px 3%;}
+
+#iframe{margin:25% 0px 0px 3%;width:94%;height:200%;}
+
+#video{margin:90% 0px 0px 3%;}
+
+#Animation{margin:165% 0px 0px 3%;}
+
+#videoconceptanimation{margin:175% 0px 0px 0%;width:94%;height:200%;}
+
+#videoconcept{width:94%;height:200%;position:absolute;margin:100% 0px 0px 0%;}
+
+button{margin-left:2%;}
+
+ul{margin-left:-5%;}
+
+}
+
+
+
+
+
+@media only screen and (max-width:650px){
+
+
+body{height:2500px;background:radial-gradient(rgb(245,245,245) 20%,yellow);background-repeat:no-repeat;background-position:center;background-attachment:fixed;}
+
+#circle{width:40.25%;border-radius:100%;margin:200px 0px 0px 24.5%;}
+
+
+#one{margin:245px 0px 0px 24%;}
+
+#two{margin:250px 0px 0px 40%;}
+
+#three{margin:300px 0px 0px 39%;}
+
+@keyframes edu{from{margin:-100px 0px 0px 67.50%;transform:rotate(-30deg)} to{margin:245px 0px 0px 34%;transform:rotate(-60deg)}}
+
+
+@keyframes inn{from{margin:-100px 0px 0px 15%;transform:rotate(30deg)} to{margin:250px 0px 0px 43%;transform:rotate(55deg)}}
+
+@keyframes core{from{margin:600px 0px 0px 42%;} to{margin:300px 0px 0px 42%;}}  
+
+#core{margin:430px 0px 0px 10%;}
+
+
+#pid{margin:265px 0px 0px 39%;}
+
+#desc{width:94%;}
+
+#Documentation{margin:15% 0px 0px 3%;}
+
+#iframe{margin:25% 0px 0px 3%;width:94%;height:100%;}
+
+#video{margin:90% 0px 0px 3%;}
+
+#Animation{margin:165% 0px 0px 3%;}
+
+#videoconceptanimation{margin:145% 0px 0px 0%;width:94%;height:200%;}
+
+#videoconcept{width:94%;height:200%;position:absolute;margin:70% 0px 0px 0%;}
+
+button{margin-left:2%;margin-bottom:3%;}
+
+ul{margin-left:-10%;}}
+

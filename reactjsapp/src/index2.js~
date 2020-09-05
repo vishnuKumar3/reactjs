@@ -1,0 +1,42 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {HashRouter, NavLink,Route } from 'react-router-dom';
+import App2 from "./index3";
+
+
+
+
+
+class Car1 extends React.Component{
+	click(){
+		alert("hello");
+		}
+
+	
+
+
+	render(){		
+  return (
+    <div>
+      
+	<button onClick={this.click}>click1inindex2</button>
+	<p>hii</p>
+	<a href="www.google.com">google</a>
+	<HashRouter>
+	<li><NavLink to="/index3">click</NavLink></li>
+	<Route path="/index3" component={App2} />  
+	<li><NavLink to="/index3">click</NavLink></li>
+	<Route path="/index3" component={App2} />  
+	
+	</HashRouter>
+		
+	
+       
+    </div>	
+
+  );}
+}
+
+export default Car1;
+
+
